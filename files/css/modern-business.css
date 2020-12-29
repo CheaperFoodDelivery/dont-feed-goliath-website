@@ -12,6 +12,13 @@
     font-size: larger;
 }
 
+.container .row {
+    padding-top: 32px;
+    padding-left: 12px;
+    padding-right: 12px;
+
+}
+
 /* Global Styles */
 
 html,
