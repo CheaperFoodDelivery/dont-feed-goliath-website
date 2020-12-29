@@ -1,26 +1,68 @@
-/*!
- * Start Bootstrap - Modern Business (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
+.btn-primary {
+    border-radius: 5px;
+}
+
+.navbar {
+    background: lightgray;
+    border: 0;
+}
+.navbar a {
+    font-size: large;
+    color: #1e1e1e !important;
+}
+
+#intro-panels {
+    margin:0;
+    width: 100% !important;
+}
+
 #hero {
-    height: 60%;
-    background: #39589d;
+    background: lightgray;
+    padding-top: 90px;
+    padding-bottom: 50px;
+    height: auto;
+}
+
+#hero-inner {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+#hero h1,h2{
+    font-weight: 900 !important;
+}
+
+.panel {
+    border: 0 !important;
+    height: 100%;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
 }
 
 .panel-body p {
     font-size: larger;
 }
 
+.panel-heading {
+    background-color: white !important;
+    border: 0 !important;
+}
+.panel-heading h3 {
+    font-weight: 800 !important;
+}
+
 .container .row {
+    display: flex;
     padding-top: 32px;
     padding-left: 12px;
     padding-right: 12px;
-
 }
 
 /* Global Styles */
 
+body {
+    background-size: cover;
+
+}
 html,
 body {
     height: 100%;
@@ -32,6 +74,10 @@ body {
 
 .img-portfolio {
     margin-bottom: 30px;
+}
+
+li a:hover {
+    color: #9d9d9d !important;
 }
 
 .img-hover:hover {
@@ -97,6 +143,9 @@ footer {
 /* Responsive Styles */
 
 @media(max-width:991px) {
+    .container .row {
+        display: inherit;
+    }
     .customer-img,
     .img-related {
         margin-bottom: 30px;
@@ -104,6 +153,9 @@ footer {
 }
 
 @media(max-width:767px) {
+    .container .row {
+        display: inherit;
+    }
     .img-portfolio {
         margin-bottom: 15px;
     }

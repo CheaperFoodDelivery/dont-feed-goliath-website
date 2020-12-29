@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-gsutil cp files/* gs://www.dontfeedgoliath.com
+gsutil -m cp -r files/* gs://www.dontfeedgoliath.com
 
